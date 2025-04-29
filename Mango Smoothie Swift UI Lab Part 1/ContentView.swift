@@ -95,12 +95,15 @@ struct ContentView: View {
         VStack(alignment: .leading) {
 //Work below in this VStack! ************
             Text("Mango Smoothie!")
-                .font(.title2)
+                .font(.headline)
+                .fontWeight(.bold)
             Text("Mango, Banana, Water")
                 .font(.body)
+                .fontWeight(.medium)
             Text("320 calories")
-                .font(.caption)
-                .fontWeight(.regular)
+                .font(.footnote)
+                
+                
                 
              
               
