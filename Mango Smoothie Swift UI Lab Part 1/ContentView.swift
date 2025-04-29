@@ -92,12 +92,22 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
 //Work below in this VStack! ************
-                Text("Hello")
-                   
-            
-            
+            Text("Mango Smoothie!")
+                .font(.headline)
+                .fontWeight(.bold)
+            Text("Mango, Banana, Water")
+                .font(.body)
+                .fontWeight(.medium)
+            Text("320 calories")
+                .font(.footnote)
+                
+                
+                
+             
+              
+
         
 //Work above in this VStack! ************
         }
